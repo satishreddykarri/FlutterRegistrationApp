@@ -20,7 +20,8 @@ class _RegistrationscreenState extends State<Registrationscreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return SingleChildScrollView(
+      child: Scaffold(
       appBar: AppBar(
         title: const Text(
           "Registration",
@@ -116,6 +117,7 @@ class _RegistrationscreenState extends State<Registrationscreen> {
                     )),
               ),
             ),
+        ),
     );
   }
 
